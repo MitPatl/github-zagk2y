@@ -1,0 +1,49 @@
+@import "./variabls.scss";
+
+body, .p-component {
+    font-family: Open Sans;
+    font-size: 0.875rem;
+    color: #000000
+}
+
+.p-panel .p-panel-header .p-panel-title {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.svc-header {
+    font-size: .875rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.search-box {
+    margin: 5px 0 15px 0;
+    display: inline-flex;
+    width: 100%;
+}
+
+.search-box .p-inputtext {
+    border-right: none;
+    margin: 0
+}
+
+.search-box .p-button-icon.pi.pi-search {
+   align-items: center;
+   display: inline-flex;
+   border: 1px solid #ced4da;
+   padding: 0 5px;
+   border-left: none;
+}
+
+
+/* Card */
+
+.p-card .p-card-body {
+    padding: 0.3125rem;
+    margin-bottom: 0.9375rem;
+}
+
+.p-card .p-card-content {
+    padding: 0;
+}
